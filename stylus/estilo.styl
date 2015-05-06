@@ -1,0 +1,79 @@
+@import 'normalize.css'
+
+azulPastelJeans = #7488CD
+
+html
+body
+	height 100%
+	font-size 16px
+	overflow hidden
+	.fondo
+		filter: blur(3px);
+		-webkit-filter: blur(3px);
+		width 100%
+		height 100%
+img
+	width 100%
+	height 100%
+.contenido
+	margin 0
+	position absolute
+	top 0
+	left 10%
+	right 10%
+	z-index 1100
+	.contenedor
+		list-style none
+		margin 0
+		padding 0
+		li
+			display: block;
+			h1
+				font-size 4em
+				margin 0
+				color white
+			p
+				font-size 1.5em
+				color white
+				text-align justify
+.boton
+	text-align center
+	a
+		text-align center
+		margin 0 43%
+		color white
+		display block
+		padding 0.5em 0.5em
+		font-size 2em
+		text-decoration none
+		border 4px solid white
+		-webkit-transition 1s
+		font-weight bold
+		&:hover
+			background azulPastelJeans
+			-webkit-transition 1s
+.dos
+	display none
+
+.nav 
+	position absolute
+	z-index 1110
+	width 20px
+	top 25%
+.rr
+	height 100%
+	color rgba(255,255,255, 0)
+	top 50%
+	border-radius 12px
+	display block
+	margin 1em 0em
+	width 100%
+	border 1px solid white
+	cursor pointer
+.activeSlide
+	background azulPastelJeans
+	cursor pointer
+
+.imgD
+	width 100%
+	height 100%
