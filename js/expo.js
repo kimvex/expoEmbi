@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var tiempo = 10000,
+	var tiempo = 100000,
 		actual = $("#menu"),
 		t,
 		uno = $('#menuUno'),
